@@ -6,7 +6,7 @@ Gitはインストール済みであることが前提となります。（https
 
 ## 利用方法
 
-2行目のインストール先フォルダを変更し実行するだけです。<br>
+2行目のインストール先フォルダを変更しinstall-sd-webui.batを実行するだけです。<br>
 (デフォルトは"C:\"で"C:\stable-diffusion-webui"がインストールされるフォルダとなります。これで問題なければ、そのままで大丈夫です。）
 <br><br>
 
@@ -41,14 +41,14 @@ https://huggingface.co/ckpt/chilloutmix/tree/main
 ## 利用させて頂いたリポジトリ・モデルファイルなど
 ・stable-diffusion-webuiリポジトリ<br>
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
-<br>
+<br><br>
 ・拡張機能<br>
 https://github.com/Mikubill/sd-webui-controlnet
 <br>
 https://github.com/jexom/sd-webui-depth-lib
-<br>
+<br><br>
 ・stable diffusion汎用VAE<br>
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/tree/main/
-<br>
+<br><br>
 ・ControlNetモデルファイル<br>
 https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/tree/main/
