@@ -2,7 +2,7 @@
  stable-diffusion-webuiを拡張機能など含め一括でインストールするためのファイルです。<br>
 WindowsのPCを対象としたbatファイルとなります。<br>
 Gitはインストール済みであることが前提となります。（https://git-scm.com/download/win）
-<br>
+<br><br>
 
 ## 利用方法
 
@@ -16,9 +16,12 @@ Gitはインストール済みであることが前提となります。（https
 ②拡張機能と汎用VAE取得<br>
 （拡張機能はcontrolnet1.1とdepth library、VAEはvae-ft-mse-840000）
 <br>
-<br>
+③ControlNetモデルファイルダウンロード
+<br>※700MB×15あるので時間がかかります。
+<br><br>
+
 ## 補足
-stablediffusionまたは派生モデルのモデルファイルは手動でダウンロードセットをお願いします。<br>
+stablediffusionまたは派生モデルのモデルファイルはお好きなものを手動でダウンロードセットをお願いします。<br>
 ・stable diffusion2.1<br>
 https://huggingface.co/stabilityai/stable-diffusion-2-1/tree/main
 <br>
@@ -28,7 +31,8 @@ https://huggingface.co/ckpt/anything-v4.0/tree/main
 ・Chilloutmix<br>
 https://huggingface.co/ckpt/chilloutmix/tree/main
 <br>などから.ckptまたは.safetensorsファイルをダウンロードしてstable-diffusion-webui内models下のStable-diffusionフォルダに入れてください。
-
+<br><br>
+あとはPythonがインストールされていればstable-diffusion-webui下のwebui-user.batで起動できます。
 <br>
 ※safetensors_download.batはControlNetモデルファイルのみのダウンロードするファイルで、install-sd-webui.batに含まれています。
 
