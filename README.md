@@ -27,9 +27,12 @@ https://huggingface.co/ckpt/anything-v4.0/tree/main
 <br>
 ・Chilloutmix<br>
 https://huggingface.co/ckpt/chilloutmix/tree/main
-<br>などからckptまたはsafetensorsファイルをダウンロードして
+<br>などから.ckptまたは.safetensorsファイルをダウンロードしてstable-diffusion-webui内models下のStable-diffusionフォルダに入れてください。
 
-safetensors_download.batはControlNetモデルファイルのみのダウンロードするファイルです。
+<br>
+※safetensors_download.batはControlNetモデルファイルのみのダウンロードするファイルで、install-sd-webui.batに含まれています。
+
+<br>
 
 ## 参照先
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
