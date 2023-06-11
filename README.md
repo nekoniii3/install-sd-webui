@@ -21,7 +21,7 @@ Gitはインストール済みであることが前提となります。（https
 <br><br>
 
 ## 補足
-stablediffusionまたは派生モデルのモデルファイルはお好きなものを手動でダウンロードセットをお願いします。<br>
+stablediffusionまたは派生モデルのモデルファイルは手動でダウンロードセットをお願いします。<br>
 ・stable diffusion2.1<br>
 https://huggingface.co/stabilityai/stable-diffusion-2-1/tree/main
 <br>
@@ -30,7 +30,7 @@ https://huggingface.co/ckpt/anything-v4.0/tree/main
 <br>
 ・Chilloutmix<br>
 https://huggingface.co/ckpt/chilloutmix/tree/main
-<br>などから.ckptまたは.safetensorsファイルをダウンロードしてstable-diffusion-webui内models下のStable-diffusionフォルダに入れてください。
+<br>…などから.ckptまたは.safetensorsファイルをダウンロードしてstable-diffusion-webui内models下のStable-diffusionフォルダに入れてください。
 <br><br>
 あとはPythonがインストールされていればstable-diffusion-webui下のwebui-user.batで起動できます。
 <br>
@@ -38,5 +38,17 @@ https://huggingface.co/ckpt/chilloutmix/tree/main
 
 <br>
 
-## 参照先
+## 利用させて頂いたリポジトリ・モデルファイルなど
+・stable-diffusion-webuiリポジトリ<br>
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
+<br>
+・拡張機能<br>
+https://github.com/Mikubill/sd-webui-controlnet
+<br>
+https://github.com/jexom/sd-webui-depth-lib
+<br>
+・stable diffusion汎用VAE<br>
+https://huggingface.co/stabilityai/sd-vae-ft-mse-original/tree/main/
+<br>
+・ControlNetモデルファイル<br>
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/tree/main/
