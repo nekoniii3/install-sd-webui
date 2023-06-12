@@ -25,7 +25,7 @@ stablediffusionまたは派生モデルのモデルファイルは手動でダ�
 ・stable diffusion2.1<br>
 https://huggingface.co/stabilityai/stable-diffusion-2-1/tree/main
 <br>
-・Anything-v4.5<br>
+・Anything-v4.5※オリジナルVAEあり<br>
 https://huggingface.co/ckpt/anything-v4.0/tree/main
 <br>
 ・Chilloutmix<br>
