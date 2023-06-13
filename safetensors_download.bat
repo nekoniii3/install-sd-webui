@@ -1,5 +1,5 @@
-@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã‚’æŒ‡å®šã™ã‚‹å ´åˆã¯å¤‰ãˆã¦ãã ã•ã„
-@REM ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯Windowsã®[ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰]ãƒ•ã‚©ãƒ«ãƒ€ã«â€safetensorsâ€ã¨ã„ã†ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆã—ã¦ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™ï¼‰
+@REM ƒ_ƒEƒ“ƒ[ƒh‚·‚éƒtƒHƒ‹ƒ_‚ğw’è‚·‚éê‡‚Í•Ï‚¦‚Ä‚­‚¾‚³‚¢
+@REM iƒfƒtƒHƒ‹ƒg‚ÍWindows‚Ì[ƒ_ƒEƒ“ƒ[ƒh]ƒtƒHƒ‹ƒ_‚Éhsafetensorsh‚Æ‚¢‚¤ƒtƒHƒ‹ƒ_‚ğì¬‚µ‚Äƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·j
 
 cd %USERPROFILE%\Downloads
 
@@ -22,3 +22,6 @@ bitsadmin /transfer download /priority FOREGROUND https://huggingface.co/comfyan
 bitsadmin /transfer download /priority FOREGROUND https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors %cd%\control_v11p_sd15_softedge_fp16.safetensors
 bitsadmin /transfer download /priority FOREGROUND https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors %cd%\control_v11p_sd15s2_lineart_anime_fp16.safetensors
 bitsadmin /transfer download /priority FOREGROUND https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors %cd%\control_v11u_sd15_tile_fp16.safetensors
+
+REM ƒ_ƒEƒ“ƒ[ƒhI—¹‚µ‚Ü‚µ‚½B
+pause
